@@ -1,0 +1,121 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+h1{
+   
+    border-radius: 7px;
+    padding: 5px 9px;
+    text-shadow: 1px 1px 3px black;
+    
+}
+
+
+section{
+    min-height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.ocean{
+    border: 5px dashed #9FA4C4;
+}
+
+
+section:nth-child(1){
+    color:#f4a261;
+    font-size: 40px;
+    justify-content: start;
+    align-items: center;
+    background-image: url(/images/anguillacover.jpg);
+    background-size: cover;
+    opacity: 0.8;
+    
+    
+}
+
+
+
+section:nth-child(3){
+    margin-top: 40px;
+    color:#e0ffff;
+
+}
+.img-text{
+    margin-top: 70px;
+}
+
+.text{
+    color:#f4a261;
+    margin-top: 40px;
+    text-shadow:  1px -1px  2px grey;
+}
+
+body {
+    background-image:linear-gradient(#e0ffff,#9E768F );
+    font-family: 'Anton', sans-serif;
+    
+
+}
+ 
+.title{
+    
+    background-size:cover;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+
+.activity img{
+
+    width:300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+
+.activity{
+    text-align: center;
+}
+
+
+
+
+.card{
+    font-family: 'Quicksand', sans-serif;;
+    width: 400px;
+    margin: 0 auto;
+    padding:30px;
+    display:flex;
+    justify-content:space-between;
+    text-align: center;
+    background: #639cd9;
+    color:#2b2839;
+    border-bottom:9px solid #d1d1d1 ;
+    text-shadow: 1px 1px 1px #a9d7f6;
+    border-radius: 12px;
+   
+
+}
+
+.avatar{
+    width: 150px;
+    height:140px;
+    border-radius: 50%;
+}
+
+#p1{
+
+    color: brown;
+}
